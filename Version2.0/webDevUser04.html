@@ -20,7 +20,56 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <style></style>
+    <style>div#face {
+        width: 40vw;
+        height: 40vw;
+        max-width: 400px;
+        max-height: 400px;
+        margin: 0 auto;
+        position: relative;
+        background: blueviolet;
+        margin-top: 2rem;
+    }
+    
+    div#face, div#face * {
+        border-radius: 50%;
+    }
+    
+    .eye {
+        width: 25%;
+        height: 25%;
+        background: rgb(255, 0, 0);
+        position: absolute;
+        top: 20%;
+    }
+    
+    .left.eye {
+        left: 20%;
+    }
+    
+    .right.eye {
+        right: 20%;
+    }
+    
+    .pupil {
+        background: #000;
+        width: 70%;
+        height: 20%;
+        position: relative;
+        left: 25%;
+        transform-origin: bottom;
+    }
+    
+    #mouth {
+        position: relative;
+        width: 60%;
+        left: 20%;
+        height: 25%;
+        border: 1vw solid transparent;
+        border-radius: 50%;
+        top: 50%;
+        border-bottom-color: #000;
+    }</style>
   </head>
 
   <body>
@@ -58,7 +107,16 @@
         <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
       </div>
       <div id="banner"></div>
-      <div id="face"></div>
+      <div id="face">  <div class="left eye">
+        <div class="pupil">
+        </div>
+   </div>
+   <div class="right eye">
+        <div class="pupil">
+        </div>
+   </div>
+   <div id="mouth">
+   </div></div>
     </main>
 
     <footer>
@@ -70,3 +128,9 @@
     </footer>
   </body>
 </html>
+<center>
+<blockquote>WEB DEVELOPMENT</blockquote>
+</center>
+<center>
+<var>Web Developement</var>
+</center>
