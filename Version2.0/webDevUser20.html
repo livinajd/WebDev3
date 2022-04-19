@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <!--Version 2.0
-        Name:
-        Date Completed:
+        Name: Be  Marty
+        Date Completed:4/18
     -->
 
   <head>
@@ -20,19 +20,67 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <style></style>
+    <style>div#face {
+      width: 40vw;
+      height: 40vw;
+      max-width: 300px;
+      max-height: 300px;
+      margin: 0 auto;
+      position: relative;
+      background: yellow;
+      margin-top: 2rem;
+  }
+  
+  div#face, div#face * {
+      border-radius: 50%;
+  }
+  
+  .eye {
+      width: 20%;
+      height: 20%;
+      background: rgba(255, 255, 255, 0);
+      position: absolute;
+      top: 87%;
+  }
+  
+  .left.eye {
+      left: 46%;
+  }
+  
+  .right.eye {
+      right: 44%;
+  }
+  
+  .pupil {
+      background: rgb(255, 0, 0);
+      width: 30%;
+      height: 30%;
+      position: relative;
+      left: 30%;
+      transform-origin: bottom;
+  }
+  
+  #mouth {
+      position: absolute;
+      width: 10%;
+      left: 44%;
+      height: 15%;
+      border: 1vw solid transparent;
+      border-radius: 50%;
+      top: 90%;
+      border-bottom-color: #000;
+      text-align: center;}
+      </style>
   </head>
-
   <body>
     <main class="wideMargin">
       <!-- Your 1st Heading-->
       <h1>About Me</h1>
-      <div id="tags">
+      <div id="This is a banner">
         <p>
           This is my first webpage! I was able to code all the HTML and CSS in
           order to make it. Watch out world of web design here I come!
         </p>
-        <hr />
         <h2>Heading Examples</h2>
 
         <!-- Put your Headings ↓↓↓↓↓↓Below↓↓↓↓↓↓ here-->
@@ -42,7 +90,6 @@
         <h4>boop</h4>
         <h5>beep</h5>
         <h6>boop</h6>
-        <hr>
         <!-- Put your Headings ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
 
         <h2>Examples of "Other" HTML elements</h2>
@@ -55,11 +102,20 @@
         <small>defines a small text</small>
         <progress value="90" max="100"></progress>
         <abbr title="Grand Theft Auto"> GTA </abbr>
-        <hr />
         <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
       </div>
       <div id="banner"></div>
       <div id="face"></div>
+      <div class="left eye">
+        <div class="pupil">
+        </div>
+   </div>
+   <div class="right eye">
+        <div class="pupil">
+        </div>
+   </div>
+   <div id="mouth">
+   </div>
     </main>
 
     <footer>
