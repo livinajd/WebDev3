@@ -19,3 +19,7 @@ th {
 	color: #ffffff;
 	background-color: #003366;
 }
+body {
+    background-image: url("fire.jpeg");
+    background-color: #ff0000;
+   }
