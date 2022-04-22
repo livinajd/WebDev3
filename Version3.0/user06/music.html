@@ -7,7 +7,8 @@
 
 <head>
 
-    <title>Music for Web Dev User 06 </title>
+    <title>Kevin's Favorite Songs - User #6</title>
+    <link rel="icon" type="image/x-icon" href="/Version3.0/user06/images/apple-touch-icon-120x120.png">
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
     <!-- JavaScript -->
     <!-- These are needed to get the responsive menu to work -->
@@ -41,6 +43,10 @@
             font-size: 12px;
             text-align: center;
         }
+
+        td {
+            color: #FF0000;
+        }
     </style>
 </head>
 
@@ -57,7 +63,7 @@
                 <div class="navbar-nav">
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="aboutMe.html" class="nav-item nav-link">About Me</a>
+                    <a href="aboutMe.html" class="nav-item nav-link disabled">About Me</a>
                     <a href="music.html" class="nav-item nav-link active">Music</a>
                     <a href="list.html" class="nav-item nav-link">Lists</a>
                     <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-item nav-link disabled"
@@ -71,9 +77,7 @@
         </nav>
     </menu>
     <!---------------------------------- End the nav-bar ------------------------------------->
-
     <main class="wideMargin">
-
         <h1 class="text-left my-3" tabindex="0">Music</h1><!-- Edit this line for the title of your page -->
 
         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
@@ -88,10 +92,10 @@
                 </tr>
             </thead>
             <tr>
-                <td>1</td>
-                <td>The Weeknd</td>
-                <td>Sacrifice</td>
-                <td><img src="The-Weeknd.webp" width="200" height="200" alt="The Weeknd as an old man"></td>
+                <td style="color:#ffcc00; background-color:rgb(0, 0, 0);">1</td>
+                    <td style="color:#ffcc00; background-color:rgb(0, 0, 0);">The Weeknd</td>
+                    <td style="color:#ffcc00; background-color:rgb(0, 0, 0);">Sacrifice</td>
+                    <td><img src="The-Weeknd.webp" width="200" height="200" alt="The Weeknd as an old man"></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -111,7 +115,7 @@
                 <td>4</td>
                 <td>Dan Mason ダン·メイソン<br>X Aritus</td>
                 <td>Kensaku Love</td>
-                <td><img="file:///Users/306714/Applications/mampstack/apache2/htdocs/WebDev3/Version3.0/user06/images/love.jpg"
+                <td><img src="file:///Users/306714/Applications/mampstack/apache2/htdocs/WebDev3/Version3.0/user06/images/love.jpg"
                         width="200" height="200" alt="Two cheerful anime girls"></td>
             </tr>
             <tr>
