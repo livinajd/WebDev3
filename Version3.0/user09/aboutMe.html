@@ -6,7 +6,7 @@
     -->
 
   <head>
-    <title>Music for Web Dev User #9</title>
+    <title>Web Dev User #9</title>
 
     <!-- Meta -->
     <meta charset="utf-8" />
@@ -15,10 +15,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="My Favorite Music" />
+    <meta name="description" content="SHS WebDev Version 3.0" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="CSS/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -27,9 +26,8 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="CSS/background.css" />
-  
+    <link rel="stylesheet" href="CSS/style.css" />
+
     <!-- JavaScript -->
     <!-- These are needed to get the responsive menu to work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -51,14 +49,46 @@
         font-size: 12px;
         text-align: center;
       }
-      td {
-        color: #ff0000;
+
+      h3 {
+        padding: 50px;
+        background-color: lavender;
+        display: inline-block;
+        border-bottom: 1px solid #5d6063;
+        border-right: 3px dotted #0000ff;
+        border-top: 5px inset;
+        border-left: 3px dashed #e9e9e9;
       }
+
+      p {
+        padding-top: 5px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 5px;
+        background-color: lavender;
+      }
+
+      p {
+        padding: 5px 50px 30px 5px;
+        margin-bottom: 50px; /* Add this */
+      }
+
+      strong {
+        padding: 50px;
+        background-color: rgb(37, 184, 232);
+      }
+
+      p{
+padding: 5px 50px 30px 5px;
+background-color: lavender;
+margin-top: 25px;
+margin-bottom50px;
+}
     </style>
   </head>
 
   <body>
-    <!---------------------------------- Begin the nav-bar ------------->
+    <!---------------------------------- Begin the nav-bar ------------------------------------------>
     <menu>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a href="http://shakonet.isd720.com" class="navbar-brand">WebDev</a>
@@ -70,13 +100,12 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav">
             <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
             <a href="index.html" class="nav-item nav-link">Home</a>
-            <a href="aboutMe.html" class="nav-item nav-link">About Me</a>
-            <a href="music.html" class="nav-item nav-link active">Music</a>
+            <a href="aboutMe.html" class="nav-item nav-link active">About Me</a>
+            <a href="music.html" class="nav-item nav-link">Music</a>
             <a href="list.html" class="nav-item nav-link">Lists</a>
             <a
               href="mailto:sample@gmail.com?Subject=Hello"
@@ -91,94 +120,32 @@
           </div>
         </div>
       </nav>
+      <!---------------------------------- End the nav-bar ------------------------------------->
     </menu>
-    <!---------------------------------- End the nav-bar ------------------------------------->
 
     <main class="wideMargin">
-      <h1 class="text-left my-3" tabindex="0">Music</h1>
+      <h1 class="text-left my-3">About Me</h1>
       <!-- Edit this line for the title of your page -->
 
       <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-      <h2>My Top 5 Favorite Songs</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Artist</th>
-            <th>Song</th>
-            <th>Album Art</th>
-          </tr>
-        </thead>
-        <tr style="background-color:green;">
-          <td>1</td>
-          <td>Juice WRLD</td>
-          <td>Lean Wit Me</td>
-          <td>
-            <img
-              src="images/Goodbye_&_Good_Riddance_Album_Cover.jpeg"
-              style="width: 100px; height: 100px"
-              alt="Picture of Goodbye & Good Riddance Album - Car Driving"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Polo G</td>
-          <td>Bloody Canvas</td>
-          <td>
-            <img
-              src="images/Hall_of_Fame.png"
-              style="width: 100px; height: 100px"
-              alt="Picture of Hall of Fame Album - Polo G Holding a Trophy"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Juice WRLD</td>
-          <td>Armed and Dangerous</td>
-          <td>
-            <img
-              src="images/Goodbye_&_Good_Riddance_Album_Cover.jpeg"
-              style="width: 100px; height: 100px"
-              alt="Picture of Goodbye & Good Riddance Album - Car Driving"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Polo G</td>
-          <td>Deep Wounds</td>
-          <td>
-            <img
-              src="images/Polo_G_-_Die_a_Legend.png"
-              style="width: 100px; height: 100px"
-              alt="Picture of Die a Legend Album - Polo G Standing"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Lil Uzi Vert</td>
-          <td>The Way Life Goes</td>
-          <td>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/en/6/65/Luv_Is_Rage_2_cover.jpg"
-              style="width: 100px; height: 100px"
-              alt="Picture of LUV is rage 2 Album - Off-White"
-            />
-          </td>
-        </tr>
-      </table>
+      <h3>Headings Are Block Elements</h3>
+
+      <p>
+        paragraphs are blocks, too.<em>However</em>, &lt;em&gt; and
+        &lt;strong&gt; elements are not. They are
+        <strong>inline</strong> elements.
+      </p>
+
+      <p>
+        Block elements define the flow of the HTML document, while inline
+        elements do not.
+      </p>
+      <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
     </main>
-    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
 
     <!---------------------------------- Begin the footer ------------->
     <footer class="wideMargin">
-      <div>
-        Music can be found here
-        <a href="https://music.amazon.com"> Amazon Music</a>
-      </div>
+      <div>Webpage made by <a href="#" target="_blank">[your name]</a></div>
     </footer>
     <!---------------------------------- End the footer ------------->
   </body>
