@@ -7,6 +7,7 @@
 
 <head>
 
+    <title>Web Dev User ## </title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -27,8 +28,9 @@
 
     <!-- Custom styles for this template -->
     <style type="text/css">
-        .menu {
-            margin: 0px;
+        menu {
+            margin: 0;
+            padding: 0;
         }
 
         .wideMargin {
@@ -42,22 +44,21 @@
     </style>
 </head>
 
-
-    <!---------------------------------- Begin the nav-bar ------------->
-    <div class="menu">
+<body>
+    <!---------------------------------- Begin the nav-bar ------------------------------------------>
+    <menu>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <a href="http://shakonet.isd720.com" class="navbar-brand">WebDev</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="aboutMe.html" class="nav-item nav-link">About Me</a>
+                    <a href="aboutMe.html" class="nav-item nav-link active">About Me</a>
                     <a href="music.html" class="nav-item nav-link">Music</a>
-                    <a href="list.html" class="nav-item nav-link active">Lists</a>
+                    <a href="list.html" class="nav-item nav-link">Lists</a>
                     <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-item nav-link disabled"
                         tabindex="-1">Contact</a>
                     <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your Menu ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
@@ -67,25 +68,33 @@
                 </div>
             </div>
         </nav>
-    </div>
-    <!---------------------------------- End the nav-bar ------------->
+        <!---------------------------------- End the nav-bar ------------------------------------->
+    </menu>
 
     <main class="wideMargin">
 
-        <h1 class="text-left my-3">My Lists</h1><!-- Edit this line for the title of your page -->
+        <h1 class="text-left my-3">About Me</h1><!-- Edit this line for the title of your page -->
 
-    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-    <body>
-        <h3>NFC North</h3>
-        <ol>
-            <li>Vikings</li>
-            <li>Lions</li>
-            <li>Bears</li>
-            <li>Packers</li>
-        </ol>
-        <title>Web Dev User ## </title>
-   
-    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑-->
+        <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+        <h3>Headings Are Block Elements</h3>
+
+        <p>paragraphs are blocks, too.<em>However</em>, &lt;em&gt; and &lt;strong&gt;
+        elements are not. They are <strong>inline</strong> elements.</p>
+        
+        <p>Block elements define the flow of the HTML document, while inline elements
+        do not.</p>
+        <h3>CSS Box Model Demonstration</h3>
+<p>
+Paragraphs are blocks too. <em>However</em> things like &lt;em&gt; and &lt;strong&gt; elements are not.
+They are <strong>inline</strong> elements. 
+</p>
+
+<div style='padding-top: 1px'></div>  <!-- Add this -->
+
+<p>Block elements define the flow of the HTML document, while inline elements
+do not.
+</p>
+        <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
     </main>
 
     <!---------------------------------- Begin the footer ------------->
