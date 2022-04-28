@@ -7,18 +7,19 @@
 
 <head>
     <link rel="icon" type="image/x-icon" href="http://127.0.0.1:5500/Version3.0/user07/images/mefav.ico" />
-    <title>Music - Ethan's Site</title>
+    <title>About Me - Ethan's Site </title>
 
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="My Favorite Music">
+    <meta name="description" content="SHS WebDev Version 3.0">
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/style.css">
+
     <!-- JavaScript -->
     <!-- These are needed to get the responsive menu to work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -40,27 +41,51 @@
             font-size: 12px;
             text-align: center;
         }
-        td {
-     color: #585858;
-    }
+        h3 {
+  padding:50px;
+  background-color: rgb(167, 167, 167);
+  display: inline-block;
+  border: 1px solid #2f2f2f;
+}
+p {   
+padding: 20px 10px;  /* Vertical  Horizontal */
+border-bottom: 1px solid #5D6063;
+border-right: 3px dashed #e9e9e9;
+border-top: 5px inset;
+border-left: 3px dashed #e9e9e9;
+}
+p {
+  padding: 5px 50px 30px 5px;
+  margin-bottom: 30px;          /* Add this */
+  margin-top: 30px;
+}
+strong {
+  padding: 50px;
+  background-color: lightblue;
+}
+p{
+padding: 5px 50px 30px 5px;
+background-color: lavender;
+margin-top: 25px;
+margin-bottom: 50px
+}
     </style>
 </head>
 
 <body>
-    <!---------------------------------- Begin the nav-bar ------------->
+    <!---------------------------------- Begin the nav-bar ------------------------------------------>
     <menu>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <a href="http://shakonet.isd720.com" class="navbar-brand">ethan's site</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your Menu ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="aboutMe.html" class="nav-item nav-link">About Me</a>
-                    <a href="music.html" class="nav-item nav-link active" tabindex="-1">Music</a>
+                    <a href="aboutMe.html" class="nav-item nav-link active">About Me</a>
+                    <a href="music.html" class="nav-item nav-link" tabindex="-1">Music</a>
                     <a href="lists.html" class="nav-item nav-link" tabindex="-1">Lists</a>
                     <a href="#" class="nav-item nav-link" tabindex="-1">Games</a>
                     <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-item nav-link disabled"
@@ -72,63 +97,30 @@
                 </div>
             </div>
         </nav>
+        <!---------------------------------- End the nav-bar ------------------------------------->
     </menu>
-    <!---------------------------------- End the nav-bar ------------------------------------->
 
     <main class="wideMargin">
 
-        <h1 class="text-left my-3" tabindex="0">Music</h1><!-- Edit this line for the title of your page -->
+        <h1 class="text-left my-3">About Me</h1><!-- Edit this line for the title of your page -->
 
         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-        <h2>Ethan's Current Top 5 Songs</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Rank</th>
-                    <th>Artist</th>
-                    <th>Song</th>
-                    <th>Album Art</th>
-                </tr>
-            </thead>
-            <tr>
-                <td>1.</td>
-                <td>Bonsai Trees</td>
-                <td>Apology Note</td>
-                <td><img src="https://i.scdn.co/image/ab67616d0000b273e4b09695509a381537140f49" alt="Bonsai Trees - Apology Note Cover Image" style="width:100px;height:100px;">
-            </tr>
-            <tr>
-                <td>2.</td>
-                <td>Anemoria</td>
-                <td>Pineapple Bride</td>
-                <td><img src="images/pineapple bride.jpeg" alt="Anemoria - Pineapple Cover Image" style="width:100px;height:100px;">
-            </tr>
-            <tr>
-                <td>3.</td>
-                <td>Dwellings</td>
-                <td>Lemonade</td>
-                <td><img src="images/lemonade.jpg" alt="Dwelling - Lemonade Cover Image" style="width:100px;height:100px;">
-            </tr>
-            <tr>
-                <td>4.</td>
-                <td>Hail the Sun</td>
-                <td>Human Target Practice</td>
-                <td><img src="images/human target practice.jpeg" alt="Hail the Sun - Human Target Practice Cover Image" style="width:100px;height:100px;">
-            </tr>
-            <tr>
-                <td>5.</td>
-                <td>Tyler, the Creator</td>
-                <td>Boredom</td>
-                <td><img src="images/boredom.jpeg" alt="Tyler, the Creator - Boredom Cover Image" style="width:100px;height:100px;">
-            </tr>
-        </table>
-    </main>
-    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+        <h3>Headings Are Block Elements</h3>
 
+        <p>Paragraphs are blocks, too. <em>However</em>, &lt;em&gt; and &lt;strong&gt;
+        elements are not. They are <strong>inline</strong> elements.</p>
+        
+        <div style='padding-top: 1px'></div>  <!-- Add this -->
+
+        <p>Block elements define the flow of the HTML document, while inline elements
+        do not.</p>
+        <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+    </main>
 
     <!---------------------------------- Begin the footer ------------->
     <footer class="wideMargin">
         <div>
-            Music can be found on spotify <a href="https://open.spotify.com/playlist/5wZWhvDB0rj4vWPzkyMUZ5?si=a3df546183514f15">here</a>
+            Webpage made by <a href="#" target="_blank">[your name]</a>
         </div>
     </footer>
     <!---------------------------------- End the footer ------------->
